@@ -1,5 +1,9 @@
 package br.com.demo.academybody.repository;
 
-public class AcademyRepository {
+import org.springframework.data.repository.CrudRepository;
+
+import br.com.demo.academybody.model.AcademyEntity;
+
+public interface AcademyRepository extends CrudRepository<AcademyEntity, Integer> {
 
 }
